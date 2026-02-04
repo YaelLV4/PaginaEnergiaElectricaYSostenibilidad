@@ -1,0 +1,13 @@
+<li><a href="academicoACG.html"><div>DRA. ALEJANDRA CASTRO G.</div></a></li>
+<li><a href="academicoVRP.html"><div>DR. VÍCTOR RODRÍGUEZ PADILLA</div></a></li>
+<li><a href="academicoJMS.html"><div>DR. JAIME MORALES S.</div></a></li>
+<li><a href="academicoJLFL.html"><div>DR. JUAN LUIS FRANCOIS L.</div></a></li>
+<li><a href="academicoGLS.html"><div>DR. GABRIEL LEÓN DE LOS S.</div></a></li>
+<li><a href="academicoASC.html"><div>M.I. AUGUSTO SÁNCHEZ C.</div></a></li>
+<li><a href="academicoMGC.html"><div>DR. MANUEL GONZÁLEZ CUESTA</div></a></li>
+<li><a href="academicoCCM.html"><div>DR. CARLOS CHÁVEZ MERCADO</div></a></li>
+<li><a href="academicoCMC.html"><div>DRA. CECILIA MARTÍN DEL C.</div></a></li>
+<li><a href="academicoPFNE.html"><div>DRA. PAMELA FRAN NELSON E.</div></a></li>
+<li><a href="academicoARC.html"><div>DR. ARTURO REIKING CEJUDO</div></a></li>
+<li><a href="academicoAEI.html"><div>DRA. AZUCENA ESCOBEDO IZQUIERDO</div></a></li>
+<li><a href="academicoHALZ.html"><div>M. C. HÉCTOR ARNOLDO LÓPEZ ZAMORANOD</div></a></li>

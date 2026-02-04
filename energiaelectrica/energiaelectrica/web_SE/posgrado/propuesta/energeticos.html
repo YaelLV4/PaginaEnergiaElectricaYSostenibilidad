@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+	<meta content="text/html" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<img class="banner-top" src="images/img01.png" alt="banner">
+			</div>
+			<div class="row">
+				<!--<div class="col-lg-6 titulo-pos">
+					<p>Posgrado en Energía <span><br>Sede CU</span></p>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<img class="tres-logos" src="images/tres_logos.png" alt="3 escudos">
+					</div>
+				</div>-->
+				<img class="banner-top" src="images/tres_logos_banner.png" alt="banner">
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 sin-relleno">
+				<nav>
+					<div id="boton-menu">
+						<a id="toggler-menu" href="#" onclick="despliegaMenu()"><span style="padding-left: 10px;">Menú</span><span style="position: relative; float: right; top: 4px;
+						padding-right: 10px;" class="fas fa-bars"></span></a>
+					</div>
+					<ul id="main-menu" class="menu">
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#acerca', 'submenu-list')">Acerca del programa <span class="fas fa-caret-down"></span></a>
+							<ul id="acerca" class="submenu-list">
+								<li class="list-item-1"><a href="index.html">Programa</a></li>
+								<li class="list-item-1"><a href="mision.html">Misión</a></li>
+							</ul>
+						</li>
+
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#campos', 'submenu-list')">Campos disciplinarios <span class="fas fa-caret-down"></span></a>
+							<ul id="campos" class="submenu-list">
+									<li class="list-item-1"><a href="bioclimatico.html">Diseño bioclimático</a></li>
+									<li class="list-item-1"><a href="frenovables.html">Fuentes renovables</a></li>
+									<li class="list-item-1"><a href="energeticos.html">Sistemas energéticos</a></li>
+							</ul>
+						</li>
+
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#alumnos', 'submenu-list')">Alumnos <span class="fas fa-caret-down"></span></a>
+							<ul id="alumnos" class="submenu-list">
+								<li class="list-item-1"><a href="calendario.html">Calendario</a></li>
+								<li class="list-item-1 submenu-2"><a href="#" onclick="despliegaSubmenu('#nacional', 'submenu-list-2')">Plan de estudios <span class="fas fa-caret-down"></span></a>
+									<ul id="nacional" class="submenu-list-2">
+										<li class="list-item-2"><a href="maestria.html">Maestría</a></li>
+										<li class="list-item-2"><a href="doctorado.html">Doctorado</a></li>
+									</ul>
+								</li>
+								<li class="list-item-1 submenu-2"><a href="#" onclick="despliegaSubmenu('#temarios', 'submenu-list-2')">Temarios <span class="fas fa-caret-down"></span></a>
+									<ul id="temarios" class="submenu-list-2">
+										<li class="list-item-2"><a href="datos_energia.html">Análisis de datos aplicado a la energía</a></li>
+										<li class="list-item-2"><a href="expansion.html"> Análisis de Expansión del Sector Electrico</a></li>
+										<li class="list-item-2"><a href="reactores.html"> Análisis de Reactores Nucleares</a></li>
+										<li class="list-item-2"><a href="balances.html">Balances de Materia y Energía en Procesos Industriales</a></li>
+										<li class="list-item-2"><a href="desarrollo.html">Desarrollo Sustentable en la Industria</a></li>
+										<li class="list-item-2"><a href="clima.html">Edificio, Clima y Radiacion</a></li>
+										<li class="list-item-2"><a href="generacion.html">Elementos para el Diseño de Sistemas de Generación con Energías Limpias</a></li>
+										<li class="list-item-2"><a href="etransporte.html">Energía y transporte</a></li>
+										<li class="list-item-2"><a href="evalproy.html">Evaluación de Proyectos energéticos</a></li>
+										<li class="list-item-2"><a href="fotoquimica.html">Fotoquímica Solar-03</a></li>
+										<li class="list-item-2"><a href="ingnuclear.html">Fundamentos de Ingeniería Nuclear</a></li>
+										<li class="list-item-2"><a href="aps.html">Introducción al APS</a></li>
+										<li class="list-item-2"><a href="renovables.html">Introducción fuentes renovables</a></li>
+									</ul>
+								</li>
+								<li class="list-item-1"><a href="http://posgrado.ier.unam.mx/admision/material.html">Material para examen de admisión</li>
+							</ul>
+						</li>
+
+						<li><a href="#">Tutores</a></li>
+
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#avisos', 'submenu-list')">Avisos importantes <span class="fas fa-caret-down"></span></a>
+							<ul id="avisos" class="submenu-list">
+								<li class="list-item-1"><a href="#">Convocatoria aspirantes extranjeros</a></li>
+								<li class="list-item-1 submenu-2"><a href="#" onclick="despliegaSubmenu('#nacional', 'submenu-list-2')">Convocatoria aspirantes nacionales <span class="fas fa-caret-down"></span></a>
+									<ul id="nacional" class="submenu-list-2">
+										<li class="list-item-2"><a href="http://ingenieria.posgrado.unam.mx/sitv3/asp.html">Información específica</a></li>
+										<li class="list-item-2"><a href="http://odin.fi-b.unam.mx/senergeticos/posgrado/solicitud_de_ingreso_M%20y%20D_nacionales.doc">Solicitud de ingreso</a></li>
+									</ul>
+								</li>
+								<li class="list-item-1"><a href="avisos.html">Avisos generales</a></li>
+								<li class="list-item-1"><a href="sitios.html">Sitios de interés</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-9 sin-relleno">
+	<div class="principal">
+		<h1>Sistemas Energéticos</h1>
+		<p>Tiene como misión realizar investigación y desarrollo tecnológico para el aprovechamiento de las fuentes renovables de energía; contribuir a la apropiación de tecnología avanzada por instituciones nacionales; conocer los impactos, presentes y futuros de la energía en la sociedad, prestar servicios y educar en el área, para contribuir al desarrollo sustentable del país. </p>
+		<br>
+		<h1>Plan de estudios</h1>
+
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Semestre</th>
+					<th>Materias</th>
+					<th>Créditos</th>
+					<th>Creditos totales</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="center" rowspan="5">1</td>
+					<td>Matemáticas</td>
+					<td class="center">6</td>
+					<td class="center" rowspan="5">24</td>
+				</tr>
+				<tr>
+					<td>Termodinámica</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td>Sesión de tutoría</td>
+					<td class="center">Sin creditos</td>
+				</tr>
+				<tr>
+					<td>Transferencia de calor * o Economía de la energía</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td>Termodinámica</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td class="center" rowspan="5">2</td>
+					<td>Materia optativa</td>
+					<td class="center">6</td>
+					<td class="center" rowspan="5">26</td>
+				</tr>
+				<tr>
+					<td>Sesión de tutoría II</td>
+					<td class="center">Sin creditos</td>
+				</tr>
+				<tr>
+					<td>Materia optativa</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td>Materia optativa</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td>Proyecto de investigación I</td>
+					<td class="center">8</td>
+				</tr>
+				<tr>
+					<td class="center" rowspan="5">3</td>
+					<td>Proyecto de investigación II</td>
+					<td class="center">8</td>
+					<td class="center" rowspan="5">22</td>
+				</tr>
+				<tr>
+					<td>Proyecto de investigación III</td>
+					<td class="center">8</td>
+				</tr>
+				<tr>
+					<td>Sesión de tutoría III</td>
+					<td class="center">Sin creditos</td>
+				</tr>
+				<tr>
+					<td>Sesión de tutoría IV</td>
+					<td class="center">Sin creditos</td>
+				</tr>
+				<tr>
+					<td>Materia optativa</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td class="center">4</td>
+					<td>Actividades Académicas orientadas a la graduación</td>
+					<td class="center">Sin creditos</td>
+					<td ></td>
+				</tr>
+				<tr>
+					<td colspan="3">Total de créditos</td>
+					<td class="center">72</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+			</div>
+		</div>
+	</div>
+
+	<footer></footer>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			cont = document.getElementById("contenido");
+		}
+		function cargaPDF(nombre){
+			r = "pdf/posgrado/"+nombre+".pdf";
+			document.getElementById("muestraPDF").src = r;
+			document.getElementById("muestraPDF").type = "application/pdf";
+		}
+	</script>
+	<script type="text/javascript">
+		function cargaFragmento(nombre){
+			r = nombre+".html";
+			document.getElementById("muestraPDF").src = r;
+			document.getElementById("muestraPDF").type = "text/html";
+
+		}
+		function despliegaSubmenu(x, c){
+			$(x).toggleClass(c);
+		}
+		function despliegaMenu(){
+			$('#main-menu').toggleClass('mostrar');
+		}
+	</script>
+</body>
+
+</html>

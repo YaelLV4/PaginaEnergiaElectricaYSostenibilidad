@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+	<meta content="text/html" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<img class="banner-top" src="images/img01.png" alt="banner">
+			</div>
+			<div class="row">
+				<!--<div class="col-lg-6 titulo-pos">
+					<p>Posgrado en Energía <span><br>Sede CU</span></p>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<img class="tres-logos" src="images/tres_logos.png" alt="3 escudos">
+					</div>
+				</div>-->
+				<img class="banner-top" src="images/tres_logos_banner.png" alt="banner">
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 sin-relleno">
+				<nav>
+					<div id="boton-menu">
+						<a id="toggler-menu" href="#" onclick="despliegaMenu()"><span style="padding-left: 10px;">Menú</span><span style="position: relative; float: right; top: 4px;
+						padding-right: 10px;" class="fas fa-bars"></span></a>
+					</div>
+					<ul id="main-menu" class="menu">
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#acerca', 'submenu-list')">Acerca del programa <span class="fas fa-caret-down"></span></a>
+							<ul id="acerca" class="submenu-list">
+								<li class="list-item-1"><a href="index.html">Programa</a></li>
+								<li class="list-item-1"><a href="mision.html">Misión</a></li>
+								<li class="list-item-1"><a href="vision.html">Visión</a></li>
+							</ul>
+						</li>
+
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#campos', 'submenu-list')">Campos disciplinarios <span class="fas fa-caret-down"></span></a>
+							<ul id="campos" class="submenu-list">
+									<li class="list-item-1"><a href="#">Bioclimática</a></li>
+									<li class="list-item-1"><a href="#">Economía de la energía</a></li>
+									<li class="list-item-1"><a href="#">Sistemas Nucleoeléctricos</a></li>
+									<li class="list-item-1"><a href="#">Procesos y uso eficiente de la energía</li>
+							</ul>
+						</li>
+
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#alumnos', 'submenu-list')">Alumnos <span class="fas fa-caret-down"></span></a>
+							<ul id="alumnos" class="submenu-list">
+								<li class="list-item-1"><a href="#">Calendario</a></li>
+								<li class="list-item-1"><a href="#">Plan de estudio</a></li>
+								<li class="list-item-1"><a href="#">Temarios</a></li>
+								<li class="list-item-1"><a href="#">Material para examen de admisión</li>
+							</ul>
+						</li>
+
+						<li><a href="#">Tutores</a></li>
+
+						<li class="submenu"><a href="#" onclick="despliegaSubmenu('#avisos', 'submenu-list')">Avisos importantes <span class="fas fa-caret-down"></span></a>
+							<ul id="avisos" class="submenu-list">
+								<li class="list-item-1"><a href="#">Convocatoria aspirantes extranjeros</a></li>
+								<li class="list-item-1 submenu-2"><a href="#" onclick="despliegaSubmenu('#nacional', 'submenu-list-2')">Convocatoria aspirantes nacionales <span class="fas fa-caret-down"></span></a>
+									<ul id="nacional" class="submenu-list-2">
+										<li class="list-item-2"><a href="#">Información específica</a></li>
+										<li class="list-item-2"><a href="#">Solicitud de ingreso</a></li>
+									</ul>
+								</li>
+								<li class="list-item-1"><a href="#">Avisos generales</a></li>
+								<li class="list-item-1"><a href="#">Sitios de interés</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-9 sin-relleno">
+				<div id="principal"></div>
+				<embed id="muestraPDF" name="muestraPDF" src="pdf/posgrado/info_sede_CU_20181.pdf" type="application/pdf"></embed>
+			</div>
+		</div>
+	</div>
+
+	<footer></footer>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			cont = document.getElementById("contenido");
+		}
+		function cargaPDF(nombre){
+			r = "pdf/posgrado/"+nombre+".pdf";
+			document.getElementById("muestraPDF").src = r;
+		}
+	</script>
+	<script type="text/javascript">
+		function despliegaSubmenu(x, c){
+			$(x).toggleClass(c);
+		}
+		function despliegaMenu(){
+			$('#main-menu').toggleClass('mostrar')
+		}
+	</script>
+</body>
+
+</html>

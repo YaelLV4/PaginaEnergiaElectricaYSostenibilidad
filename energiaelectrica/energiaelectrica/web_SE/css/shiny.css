@@ -1,0 +1,41 @@
+/*$duration: 5s;
+$text-color: rgba(255, 255, 255, 0.3);
+$bgr-color: #333;
+html {
+	background-color: #FFF;
+	text-align: center
+}
+
+body {
+	padding-top: 3em;
+}
+
+.shine{
+	font-weight: bold;
+}*/
+
+.shine {
+	background: #111 -webkit-gradient(linear, left top, right top, from(#111), to(#111), color-stop(0.5, #fff)) 0 0 no-repeat;
+	-webkit-background-size: 150px;
+	color: rgba(00, 20, 20, 0.8);
+	-webkit-background-clip: text;
+	-webkit-animation-name: shine;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	text-shadow: 0 0px 0px rgba(255, 255, 255, 0.8);
+}
+
+@-webkit-keyframes shine {
+	0%, 10% {
+		background-position: -1000px;
+	}
+	20% {
+		background-position: top left;
+	}
+	90% {
+		background-position: top right;
+	}
+	100% {
+		background-position: 1000px;
+	}
+}

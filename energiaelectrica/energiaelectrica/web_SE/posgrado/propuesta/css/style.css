@@ -1,0 +1,148 @@
+
+.titulo-pos{
+	padding-top: 5px;
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.banner-top{
+	width: 100%;
+	border-right: 1px solid #030095;
+	border-left: 1px solid #030095;
+}
+
+embed{
+	width: 100%;
+	height: 100vh;
+}
+
+ul, li{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+li{
+	padding-top: 10px;
+}
+
+.container{
+	background: #030095;
+}
+
+.menu{
+	background: #030095;
+	display: none;
+	margin-bottom: 0;
+}
+
+.mostrar{
+	display: block !important;
+}
+
+#boton-menu{
+	background: #030095;
+	display: block;
+}
+
+#toggler-menu{
+	color: white;
+}
+
+.menu a{
+	position: relative;
+	color: white;
+	top: -5px;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color: #030095;
+}
+
+li:hover{
+	background: #0A65CF;
+}
+
+.sin-relleno{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.submenu-list{
+	display: none;
+}
+
+.list-item-1{
+	background: #0931AC;
+}
+
+/*.submenu:hover .submenu-list{
+	display: block;
+}
+
+.submenu-2:hover .submenu-list-2{
+	display: block;
+}*/
+
+.submenu-list-2{
+	display: none;
+}
+
+.list-item-2{
+	background: #0856A2;
+}
+
+.tres-logos{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.principal{
+	padding: 30px;
+	text-align: justify;
+	border: 1px solid #030095;
+	background: white;
+}
+
+.principal h1{
+	padding: 7px 10px;
+	color: white;
+	/*background: linear-gradient(to right, rgba(9, 49, 172, 1), rgba(9, 49, 172, 0))*/
+	background: linear-gradient(to right, rgba(10, 101, 207, 1), rgba(10, 101, 207, 0))
+}
+
+.table{
+	border-radius: 10px !important;
+	border: solid 1px #0A65CF;
+}
+
+.table th{
+	background: #0A65CF;
+	color: white;
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+}
+
+@media screen and (min-width: 992px){
+
+	.titulo-pos{
+		font-size: 1.7rem;
+	}
+
+	.tres-logos{
+		width: 100%;
+	}
+
+	#boton-menu{
+		display: none;
+	}
+
+	.menu{
+		display: block;
+	}
+}
