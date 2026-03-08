@@ -53,7 +53,7 @@
         <section id="content">
             <div class="container clearfix">
                 <br>
-                <h3>División de Energía Eléctrica y Sostenibilidad</h3>
+                <h3>Departamento de Energía Eléctrica y Sostenibilidad</h3>
             	<div class="single-post nobottommargin">
                     <div class="entry clearfix">
                         
@@ -77,11 +77,11 @@
 
                     <!--<a href="images/fullslider/ConvocatoriaBeca2023.jpg" target="_blank"><center><img style="width: 410px" src="images/fullslider/ConvocatoriaBeca2023.jpg" alt="Slider"></center></a>-->
 
-                    <a href="pdfs/REVFIDE35DICFINAL.pdf" target="_blank"><center><img style="width: 350px" src="images/fullslider/RevistaFIDEICOMISO.PNG" alt="Slider"></center></a>
+                    <a href="pdfs/REVFIDE35DICFINAL.pdf" target="_blank"><center><img style="width: 350px" src="http://odin.fi-b.unam.mx/senergeticos/images/fullslider/RevistaFIDEICOMISO.PNG" alt="Slider"></center></a>
                     
-                    <a href="https://app.becas-santander.com/en/program/becas-santander-women-apoyo-alumnas-con-discapacidad-unam-or-unapdi-2022?category=WOMENstatus%3Dopen&track=search" target="_blank"><center><img style="width: 710px" src="https://pro-becas-images-s3.s3.eu-west-1.amazonaws.com/public_documents/4f3fd07e-639d-4ad2-8c64-a7ea5f703815" alt="Slider"></center></a>
+                    
 
-                    <a href="https://www.youtube.com/watch?v=xhHPLh-xetc&t=2s" target="_blank"><center><img style="width: 730px" src="images/fullslider/PositivamenteUNAM.JPG" alt="Slider"></center></a>
+                    <a href="https://www.youtube.com/watch?v=xhHPLh-xetc&t=2s" target="_blank"><center><img style="width: 730px" src="http://odin.fi-b.unam.mx/senergeticos/images/fullslider/PositivamenteUNAM.JPG" alt="Slider"></center></a>
 
 
                 </div>

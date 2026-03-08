@@ -52,7 +52,7 @@
                         </ul>
                     	
                     </li>
-                    <li><a href="#"><div>Laboratorios <img src="images/icons/mainsubmenured2.png" alt="submenu"></div></a>
+                    <li><a href="#"><div>Docencia <img src="images/icons/mainsubmenured2.png" alt="submenu"></div></a>
                     	<ul>
                             <li><a href="laboratorio-docencia.php"><div>Infraestructura</div></a></li>
 
@@ -70,7 +70,8 @@
 
 
                                 <li><a href="https://www.ingenieria.unam.mx/energiaresidual/Instalaciones.html" target="_blank">
-                                <div>Prod. y Utilización de Biocombustibles</div></a>
+                                <div>LAEL</div></a>
+
 </li>
 
 
@@ -90,10 +91,10 @@
                                         </ul>
                                 </li>
 
-                <li><a href="#" ><div>Maestría y Doctorado <img src="images/icons/mainsubmenured2.png" alt="submenu"></div></a>
+                <li><a href="#" ><div>Maestría y Doctorado en Ingeniería <img src="images/icons/mainsubmenured2.png" alt="submenu"></div></a>
                                         <ul>
-                                            <li><a href="" target="_blank"><div>Electrica de potencia</div></a></li>
-                                            <li><a href="posgrado.html" target="_blank"><div>Sistemas Energeticos</div></a></li>
+                                            <li><a href="" target="_blank"><div>Eléctrica </div></a></li>
+                                            <li><a href="posgrado.html" target="_blank"><div>Energía</div></a></li>
                                         </ul>
                                 </li>
 
